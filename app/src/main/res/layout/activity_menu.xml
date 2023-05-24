@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="textStart"
+    android:textDirection="firstStrongRtl"
+    tools:context="estrella.angel.hamburguesas.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:text="REGISTRO DE PEDIDOS"
+            android:fontFamily="@font/baloo_thambi"
+
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+
+
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittex_custom"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittex_custom"
+            android:hint="Telefono"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/text_consulta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittex_custom"
+            android:hint="Direccion"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/text_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittex_custom"
+            android:hint="Pedido"
+            android:inputType="textMultiLine|textPersonName"
+            android:padding="5dp"
+
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/color_gray_light"
+            android:fontFamily="sans-serif-black"
+            android:text="REGISTRAR"
+            android:textColor="#090909" />
+
+        <TextView
+            android:id="@+id/goToInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#D50101"
+            android:backgroundTint="#032175"
+            android:fontFamily="sans-serif-black"
+            android:text="REGRESAR"
+            android:textColor="#F1EAEA" />
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

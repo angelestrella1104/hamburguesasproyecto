@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="estrella.angel.hamburguesas.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E1C4C4"
+        android:backgroundTint="#BD7D1D"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ha" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_reservar_sita"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#F8FCFFFF"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:drawableTint="#040303"
+            android:fontFamily="@font/baloo_thambi"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="Registrar Pedido"
+            android:layout_marginTop="80dp"
+
+            android:textColor="#070707"
+            android:textSize="15sp"
+            app:iconTint="#B60404" />
+
+        <Button
+            android:id="@+id/btn_ver_citas"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="#F8FAFDFD"
+            android:drawableLeft="@android:drawable/ic_menu_view"
+            android:drawableTint="#070707"
+            android:fontFamily="@font/baloo_thambi"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="Pedidos registrados"
+            android:textColor="#090909"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
